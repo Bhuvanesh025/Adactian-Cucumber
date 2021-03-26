@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.030445">
+<testcase classname="To validate Adactinhotelapp page" name="Verify Adactinhotelapp webpage with all valid credentials" time="0.020151">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user should move to Adactinhotelapp page..............................undefined
+When user should enter "manimani" and "Doodle"..............................undefined
+And user should click login button..........................................undefined
+And user should enter "Sydney","Hotel Creek","Standard","2 - Two","25/03/2021","26/03/2021","3 - Three","1 - One".undefined
+And user should enter search button.........................................undefined
+And user should verify the page navigates to SearchHotel page...............undefined
+And user should enter select the hotel and click the continue button........undefined
+And user should enter the "Bhuvanesh","E","EB Nagar,Sydney","1234567890123456","American Express","April","2022","9876",.undefined
+And user should click the Book now button...................................undefined
+Then user should Print the order confirmation number........................undefined
+]]></failure>
+</testcase>
+<testcase classname="To validate Adactinhotelapp page" name="Verifying mandatory functions only" time="0.00358">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is should move to Adactinhotelapp page...........................undefined
+When user should enter "manimani" and "Doodle"..............................undefined
+And user should click login button..........................................undefined
+And user should enter "Sydney","2 - Two","25/03/2021","26/03/2021","3 - Three".undefined
+And user should enter search button.........................................undefined
+And user should verify the page navigates to SearchHotel page...............undefined
+And user should enter select the hotel and click the continue button........undefined
+And user should enter the "Bhuvanesh","E","EB Nagar,Sydney","1234567890123456","American Express","April","2022","9876",.undefined
+And user should click the Book now button...................................undefined
+Then user should Print the order confirmation number........................undefined
+]]></failure>
+</testcase>
+<testcase classname="To validate Adactinhotelapp page" name="Verifying checkin date and checkout date" time="0.002211">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is should move to Adactinhotelapp page...........................undefined
+When user should enter "manimani" and "Doodle"..............................undefined
+And user should click login button..........................................undefined
+And user should enter "Sydney","2 - Two","25/03/2021","26/03/2021","3 - Three".undefined
+And user should enter search button.........................................undefined
+Then user should verify the error message...................................undefined
+]]></failure>
+</testcase>
+<testcase classname="To validate Adactinhotelapp page" name="Verifying without entering any fields and click search hotel button" time="0.004503">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is should move to Adactinhotelapp page...........................undefined
+When user should enter "manimani" and "Doodle"..............................undefined
+And user should click login button..........................................undefined
+And user should enter search button.........................................undefined
+Then user should enter error message........................................undefined
+]]></failure>
+</testcase>
+</testsuite>
